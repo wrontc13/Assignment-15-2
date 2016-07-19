@@ -1,0 +1,4 @@
+def send_email
+if user.new
+mail(:to=>"#{user.email}@exaple.com",:subject=>"My first email") 
+end
